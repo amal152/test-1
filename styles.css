@@ -8,6 +8,7 @@ h1{
   height: 400px;
   background: orange;
   margin-left: 20px
+  border:solid 1px black
 }
 #output{
   width: 90%;
