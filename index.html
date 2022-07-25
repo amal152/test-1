@@ -1,7 +1,43 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <link href="styles.css" rel="stylsheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/index.css">
+  <script src="js/index.js"></script>
+  <title>Calculator</title>
 </head>
-  <body>
-    <h1>Hello World</h1>
+<body>
+	<h1>Calculator</h1><hr>
+	<div id="screen">
+	  <div class="output">
+	    <input type="text"  id="output" />
+	  </div><br>
+	  <div class="buttons">
+	    <div class="row">
+	      <button onclick="fun(1)" class="button">1</button>
+        <button class="button" onclick="fun(2)">2</button>
+        <button onclick="fun(3)" class="button">3</button>
+        <button onclick="fun('+')" class="operations">+</button>
+	    </div>
+	  <div class="row">
+  <button onclick="fun(4)" class="button">4</button>
+  <button onclick="fun(5)" class="button">5</button>
+  <button onclick="fun(6)" class="button">6</button>
+  <button onclick="fun('-')" class="operations">-</button>
+	  </div>
+	 <div class="row">
+  <button onclick="fun(7)" class="button">7</button>
+  <button onclick="fun(8)" class="button">8</button>
+  <button onclick="fun(9)" class="button">9</button>
+  <button onclick="fun('*')" class="operations">×</button>
+	 </div>
+	 <button id="divide" class="operations" onclick="fun('/')">÷</button>
+	 <button id="equal" onclick="equalclick()">=</button>
+	 <button id="zero" class="button" onclick="fun(0)">0</button>
+	 <button id="clearscreen" onclick="clearscreen()">c</button>
+	    
+	  </div>
+	</div>
+</body>
 </html>
