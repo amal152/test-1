@@ -1,3 +1,87 @@
 h1{
-  color: #FF0000;
- }
+  color: #00ccff;
+  text-align: center;
+  font-family: Sans-Serif;
+}
+#screen{
+  width: 300px;
+  height: 400px;
+  background: orange;
+  margin-left: 20px
+}
+.output{
+  width: 100%
+  
+  background: #fff;
+  margin-top: 5px;;
+    
+}
+#output{
+  width: 90%;
+  margin-left: 7px;
+  pointer-events: ;
+  height: 25px;
+  margin-top: 5px;
+  text-align: right;
+  font-size: 20px;
+}
+.row{
+ padding: 10px;
+}
+.button{
+  width: 50px;
+  height: 50px;
+  font-size: 30px;
+  margin-left: 11px;
+  background: #009bff;
+  border:solid 1px;
+  color: #fff;
+}
+#equal{
+  width: 50px;
+  height: 65px;
+  font-size: 34px;
+  float: right;
+  margin-right: 35px;
+  background: #ff0000;
+  border: solid 1px;
+  color: #fff;
+  
+}
+#divide{
+  width: 50px;
+  height: 50px;
+  margin-left: 20px;
+  font-size: 25px;
+}
+#zero{
+  width: 50px;
+  height: 50px;
+  margin-left: 11px;
+  font-size: 25px;
+}
+#clearscreen{
+  width: 50px;
+  height: 50px;
+  margin-left: 11px;
+  font-size: 26px;
+  margin-top: 7px;
+  text-align: center;
+  background: #e63110;
+  color: #fff;
+  border: solid 1px;
+}
+.operations{
+width: 50px;
+  height: 50px;
+  font-size: 30px;
+  margin-left: 11px;
+  background: #ff00e9;
+  color: #fff;
+  border: solid 1px;
+}
+.button:hover{
+  background: #66a5ff
+}
+
+ 
