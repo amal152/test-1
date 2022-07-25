@@ -1,2 +1,2 @@
 # test-1
-This is a website
+This is a sample calculator project.
