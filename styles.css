@@ -31,6 +31,7 @@ h1{
   background: #009bff;
   border:solid 1px;
   color: #fff;
+  border-radius:5px;
 }
 #equal{
   width: 50px;
