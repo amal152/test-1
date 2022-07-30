@@ -79,5 +79,9 @@ width: 50px;
 .button:hover{
   background: #66a5ff
 }
+.buttons,.operations{
+  border-radius:8px;
+  }
+  
 
  
